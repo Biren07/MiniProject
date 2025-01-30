@@ -94,7 +94,7 @@ export default function Messenger() {
       <div className="w-1/2 bg-yellow-200 flex flex-col h-[500px]">
         {selectedUser ? (
           <>
-            <h2 className="text-xl font-bold p-4 bg-gray-300">Chat {selectedUser.username}</h2>
+            <h2 className="text-xl font-bold p-4 bg-gray-300">Chat  with{selectedUser.username}</h2>
             <div className="flex-grow overflow-y-auto p-4 border">
               {messages.map((msg, index) => (
                 <div key={index} className={`mb-2 ${msg.userId === "1" ? "text-right" : "text-left"}`}>
