@@ -16,7 +16,7 @@ export default function Messenger() {
       userId: "2",
       username: "Ramesh saud",
       profilePicture: "https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/420038312_1108678543489579_1425195465872540919_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-s7WD1z9vfMQ7kNvgFnwVOx&_nc_zt=23&_nc_ht=scontent.fktm6-1.fna&_nc_gid=AgbfBHFxwv1P99dLS9oLzh5&oh=00_AYCHv5aSeZ7yA7-VD2Buv42cPZezQwL3zDY81hXWLjMIdA&oe=679E0122",
-      status: "offline",
+      status: "online",
     },
     {
       userId: "3",
