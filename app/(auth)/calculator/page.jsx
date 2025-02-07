@@ -52,10 +52,11 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+    <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+          <h1 className="text-2xl font-bold mb-6">Calculator</h1>
       <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-xs">
         <div className="mb-4">
-          <div className="text-right text-3xl font-semibold text-gray-800 bg-gray-50 p-4 rounded-lg h-20 overflow-hidden">
+          <div className="text-right text-3xl font-semibold text-gray-800 bg-gray-300 p-4 rounded-lg h-20 overflow-hidden">
             {display}
           </div>
         </div>
